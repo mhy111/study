@@ -1,0 +1,7 @@
+import numpy as np
+a = [1, 1, 2, 3, 2, 3, 4, 7, 6]
+list1 = list(set(a))
+list2 = np.unique(a)
+print(type(list2))
+print(list2)
+print(list1)
